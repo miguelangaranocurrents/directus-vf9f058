@@ -246,6 +246,7 @@ input {
 	line-height: 1;
 	background-color: var(--theme--form--field--input--background);
 	border: none;
+	min-inline-size: 0;
 	max-inline-size: 40ch;
 	box-shadow: 0 4px 0 -2px v-bind(inputBorderColor);
 
